@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Scrinn -->
+<!-- DateCreated: 8/2/2017 4:00:00 AM -->
+<!--All units and their relevant modifiers are defined here.-->
+<GameData>
+	<Types>
+		<Row Type="UNIT_TEMP_CUSTOM_I" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_TEMP_CUSTOM_II" Kind="KIND_UNIT"/>
+	</Types>
+	
+	<UnitAiInfos>
+		<Row UnitType="UNIT_TEMP_CUSTOM_I" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_TEMP_CUSTOM_I" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_TEMP_CUSTOM_I" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_TEMP_CUSTOM_I" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_TEMP_CUSTOM_II" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_TEMP_CUSTOM_II" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_TEMP_CUSTOM_II" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_TEMP_CUSTOM_II" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_TEMP_CUSTOM_I" ReplacesUnitType="UNIT_LINE_INFANTRY"/>
+		<Row CivUniqueUnitType="UNIT_TEMP_CUSTOM_II" ReplacesUnitType="UNIT_FIELD_CANNON"/>
+	</UnitReplaces>
+	
+	<TypeTags>
+		<Row Type="UNIT_TEMP_CUSTOM_I" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_TEMP_CUSTOM_I" Tag="CLASS_GARDE"/>
+		<Row Type="UNIT_TEMP_CUSTOM_II" Tag="CLASS_RANGED"/>
+	</TypeTags>
+	
+	<Units>
+		<Row UnitType="UNIT_TEMP_CUSTOM_I" Cost="360" Maintenance="5" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="70" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_CONQUEST"  Name="LOC_UNIT_TEMP_CUSTOM_I_NAME" Description="LOC_UNIT_TEMP_CUSTOM_I_DESCRIPTION" PurchaseYield="YIELD_GOLD" TraitType="TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_I" PrereqTech="TECH_MILITARY_SCIENCE"/>
+		<Row UnitType="UNIT_TEMP_CUSTOM_II" Cost="250" Maintenance="3" BaseMoves="2" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="45" RangedCombat="60" Range="2" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_TEMP_CUSTOM_II_NAME" Description="LOC_UNIT_TEMP_CUSTOM_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" TraitType="TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_II" PrereqTech="TECH_GUNPOWDER" />
+	</Units>
+	
+	<UnitUpgrades>
+		<Row Unit="UNIT_TEMP_CUSTOM_I" UpgradeUnit="UNIT_INFANTRY"/>
+		<Row Unit="UNIT_TEMP_CUSTOM_I" UpgradeUnit="UNIT_MACHINE_GUN"/>
+	</UnitUpgrades>
+	
+	</GameData>
