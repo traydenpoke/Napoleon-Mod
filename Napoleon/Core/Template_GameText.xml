@@ -479,7 +479,7 @@
 			<Text>This unit replaces infantry and has stronger melee strength than normal infantry with less production value.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_TEMP_CUSTOM_II_NAME" Language="en_US">
-			<Text>Other Custom Unit</Text>
+			<Text>Canon de 12 Gribeauval</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_TEMP_CUSTOM_II_DESCRIPTION" Language="en_US">
 			<Text>This unit replaces Mechanized Infantry and has higher melee strength than normal Mechanized Infantry with less production value.</Text>
