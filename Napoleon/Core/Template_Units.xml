@@ -38,7 +38,7 @@
 	
 	<UnitUpgrades>
 		<Row Unit="UNIT_TEMP_CUSTOM_I" UpgradeUnit="UNIT_INFANTRY"/>
-		<Row Unit="UNIT_TEMP_CUSTOM_I" UpgradeUnit="UNIT_ARTILLERY"/>
+		<Row Unit="UNIT_TEMP_CUSTOM_II" UpgradeUnit="UNIT_ARTILLERY"/>
 	</UnitUpgrades>
 	
 	</GameData>
