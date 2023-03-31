@@ -4,10 +4,10 @@
 	<LocalizedText>
 		<!--CIVILIZATION-->
 		<Row Tag="LOC_CIVILIZATION_TEMP_CIV_CUSTOM_NAME" Language="en_US">
-			<Text>Custom Civ</Text>
+			<Text>France</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_TEMP_CIV_CUSTOM_DESCRIPTION" Language="en_US">
-			<Text>Custom Civ Empire</Text>
+			<Text>French Empire</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_TEMP_CIV_CUSTOM_ADJECTIVE" Language="en_US">
 			<Text>Custom Civ</Text>
@@ -262,25 +262,25 @@
 		
 		<!--LEADER-->
 		<Row Tag="LOC_LEADER_TEMP_LEADER_CUSTOM" Language="en_US">
-			<Text>Mr. Poopy Butthole</Text>
+			<Text>Napoleon Bonaparte</Text>
 		</Row>
 
 		
 		<!--DOM-->
 		<Row Tag="LOC_LOADING_INFO_LEADER_TEMP_LEADER_CUSTOM" Language="en_US">
-			<Text>Woopsie Daisy I guess he wasn't a parasite.</Text>
+			<Text>Great ambition is the passion of a great character. Those endowed with it may perform very good or very bad acts. All depends on the principles which direct them.</Text>
 		</Row>
 		
 		
 		<!--Civilopedia-->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TEMP_LEADER_CUSTOM_TITLE" Language="en_US">
-			<Text>Bob  Saget</Text>
+			<Text>Napoleon Bonaparte</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TEMP_LEADER_CUSTOM_SUBTITLE" Language="en_US">
-			<Text>YUMMY YUM</Text>
+			<Text>Emperor of the French</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TEMP_LEADER_CUSTOM_QUOTE" Language="en_US">
-			<Text>HUUUGYGUGYGUGYUO</Text>
+			<Text>If you want a thing well, do it yourself.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TEMP_LEADER_CUSTOM_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>WIP</Text>

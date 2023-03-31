@@ -220,15 +220,15 @@ VALUES	('TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT',						'TEMP_LEADER_CUSTOM_LTRAI
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO Modifiers	
 		(ModifierId,												ModifierType)
-VALUES	('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1',						'MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER');
+VALUES	('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1',						'MODIFIER_PLAYER_CORPS_ARMY_PREREQ');
 --------------------------------------------------------------------------------------------------------------------------
 -- ModifierArguments
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO ModifierArguments
 		(ModifierId,												Name,							Value)
-VALUES	('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1',						'GovernmentSlotType',			'SLOT_MILITARY');
-
-
+VALUES	('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1',						'Corps',			'true'),
+		('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1',						'Domain',			'DOMAIN_LAND'),
+		('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1',						'CivicType',			'CIVIC_MERCENARIES');
 
 
 
@@ -312,11 +312,3 @@ VALUES	('TRAIT_CIVILIZATION_TEMP_CIV_TRAIT',									'CIVILIZATION_TEMP_CIV_CUST
 		('TRAIT_CIVILIZATION_BUILDING_TEMP_CUSTOM',							'CIVILIZATION_TEMP_CIV_CUSTOM'),
 		('TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_I',							'CIVILIZATION_TEMP_CIV_CUSTOM'),
 		('TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_II',							'CIVILIZATION_TEMP_CIV_CUSTOM');
-
-
-
-
-
-
-
-
