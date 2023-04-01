@@ -214,13 +214,17 @@ VALUES	('TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT',						'LOC_TRAIT_LEADER_TEMP_LE
 --------------------------------------------------------------------------------------------------------------------------			
 INSERT INTO TraitModifiers			
 		(TraitType,													ModifierId)
-VALUES	('TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT',						'TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1');
+VALUES	('TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT',						'TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1'),
+		('TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT',						'TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_2'),
+		('TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT',						'TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_3');
 --------------------------------------------------------------------------------------------------------------------------
 -- Modifiers
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO Modifiers	
 		(ModifierId,												ModifierType)
-VALUES	('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1',						'MODIFIER_PLAYER_CORPS_ARMY_PREREQ');
+VALUES	('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1',						'MODIFIER_PLAYER_CORPS_ARMY_PREREQ'),
+		('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_2',						'MODIFIER_PLAYER_CORPS_ARMY_MODIFIED_STRENGTH'),
+		('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_3',						'MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER');
 --------------------------------------------------------------------------------------------------------------------------
 -- ModifierArguments
 --------------------------------------------------------------------------------------------------------------------------
@@ -228,7 +232,11 @@ INSERT INTO ModifierArguments
 		(ModifierId,												Name,							Value)
 VALUES	('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1',						'Corps',			'true'),
 		('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1',						'Domain',			'DOMAIN_LAND'),
-		('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1',						'CivicType',			'CIVIC_MERCENARIES');
+		('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1',						'CivicType',		'CIVIC_MERCENARIES'),
+		('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_2',						'Corps',			'true'),
+		('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_2',						'Domain',			'DOMAIN_LAND'),
+		('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_2',						'Amount',			'5'),
+		('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_3',						'GovernmentSlotType',			'SLOT_MILITARY');
 
 
 

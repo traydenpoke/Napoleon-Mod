@@ -451,18 +451,18 @@
 
 		<!--Traits-->
 		<Row Tag="LOC_TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT_NAME" Language="en_US">
-			<Text>LEADER TRAIT</Text>
+			<Text>La Grand Armée</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT_DESCRIPTION" Language="en_US">
-			<Text>+1 Extra Economic Slot in any government.</Text>
+			<Text>May form Corps (Mercenaries Civic) earlier. Additional Military policy slot. Corps gain an additional +5 [ICON_strength] Combat Strength.</Text>
 		</Row>
 
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_TEMP_CIV_TRAIT_NAME" Language="en_US">
-			<Text>CIV TRAIT</Text>
+			<Text>Napoleonic Tactics</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_TEMP_CIV_TRAIT_DESCRIPTION" Language="en_US">
-			<Text>Culture border expansion increased greatly.</Text>
+			<Text>+1 Movement to all units.</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_TEMP_CUSTOM_NAME" Language="en_US">
@@ -473,16 +473,16 @@
 		</Row>
 		
 		<Row Tag="LOC_UNIT_TEMP_CUSTOM_I_NAME" Language="en_US">
-			<Text>Custom Unit</Text>
+			<Text>Garde Impériale</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_TEMP_CUSTOM_I_DESCRIPTION" Language="en_US">
-			<Text>This unit replaces infantry and has stronger melee strength than normal infantry with less production value.</Text>
+			<Text>This unit replaces Line Infantry and has stronger melee strength.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_TEMP_CUSTOM_II_NAME" Language="en_US">
 			<Text>Canon de 12 Gribeauval</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_TEMP_CUSTOM_II_DESCRIPTION" Language="en_US">
-			<Text>This unit replaces Mechanized Infantry and has higher melee strength than normal Mechanized Infantry with less production value.</Text>
+			<Text>This unit replaces Bombard. Unlocked later, at Ballistics, but much higher [ICON_bombard] Bombard Strength and higher [ICON_strength] Combat Strength.</Text>
 		</Row>
 
 		
