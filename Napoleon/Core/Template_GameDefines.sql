@@ -5,31 +5,31 @@
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO Types	
 		(Type,							Kind)
-VALUES	('LEADER_TEMP_LEADER_CUSTOM',	'KIND_LEADER');	
+VALUES	('TB_LEADER_NAPOLEON_BONAPARTE',	'KIND_LEADER');	
 --------------------------------------------------------------------------------------------------------------------------
 -- Leaders
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO Leaders	
 		(LeaderType,					Name,										InheritFrom,		SceneLayers)
-VALUES	('LEADER_TEMP_LEADER_CUSTOM',	'LOC_LEADER_TEMP_LEADER_CUSTOM',		'LEADER_DEFAULT',	4);	
+VALUES	('TB_LEADER_NAPOLEON_BONAPARTE',	'LOC_TB_LEADER_NAPOLEON_BONAPARTE',		'LEADER_DEFAULT',	4);	
 --------------------------------------------------------------------------------------------------------------------------
 -- LeaderQuotes
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO LeaderQuotes	
 		(LeaderType,			Quote)
-VALUES	('LEADER_TEMP_LEADER_CUSTOM',	'LOC_PEDIA_LEADERS_PAGE_LEADER_TEMP_LEADER_CUSTOM_QUOTE');	
+VALUES	('TB_LEADER_NAPOLEON_BONAPARTE',	'LOC_PEDIA_LEADERS_PAGE_TB_LEADER_NAPOLEON_BONAPARTE_QUOTE');	
 --------------------------------------------------------------------------------------------------------------------------
 -- HistoricalAgendas
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO HistoricalAgendas	
 		(LeaderType,					AgendaType)
-VALUES	('LEADER_TEMP_LEADER_CUSTOM',	'AGENDA_OPTIMUS_PRINCEPS');
+VALUES	('TB_LEADER_NAPOLEON_BONAPARTE',	'AGENDA_OPTIMUS_PRINCEPS');
 --------------------------------------------------------------------------------------------------------------------------
 -- AgendaPreferredLeaders
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO AgendaPreferredLeaders	
 		(LeaderType,					AgendaType)
-VALUES	('LEADER_TEMP_LEADER_CUSTOM',	'AGENDA_NUKE_LOVER');	
+VALUES	('TB_LEADER_NAPOLEON_BONAPARTE',	'AGENDA_NUKE_LOVER');	
 
 
 --==========================================================================================================================
@@ -39,12 +39,12 @@ VALUES	('LEADER_TEMP_LEADER_CUSTOM',	'AGENDA_NUKE_LOVER');
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO PlayerColors	
 		(Type,							Usage,			PrimaryColor, 										SecondaryColor,											TextColor)
-VALUES	('LEADER_TEMP_LEADER_CUSTOM',	'Unique',		'COLOR_PLAYER_TEMP_CIV_CUSTOM_LEADER_CUSTOM_PRIMARY',		'COLOR_PLAYER_TEMP_CIV_CUSTOM_LEADER_CUSTOM_SECONDARY', 		'COLOR_PLAYER_WHITE_TEXT');	
+VALUES	('TB_LEADER_NAPOLEON_BONAPARTE',	'Unique',		'COLOR_PLAYER_TB_FRANCE_TB_NAPOLEON_BONAPARTE_PRIMARY',		'COLOR_PLAYER_TB_FRANCE_TB_NAPOLEON_BONAPARTE_SECONDARY', 		'COLOR_PLAYER_WHITE_TEXT');	
 
 INSERT INTO Colors 
-		(Type, 															Red, 	Green, 	Blue, 	Alpha)
-VALUES	('COLOR_PLAYER_TEMP_CIV_CUSTOM_LEADER_CUSTOM_PRIMARY',	1,	1,	1,	1),
-		('COLOR_PLAYER_TEMP_CIV_CUSTOM_LEADER_CUSTOM_SECONDARY', 	1,	0,	0,	1);
+		(Type, 																Red, 	Green, 	Blue, 	Alpha)
+VALUES	('COLOR_PLAYER_TB_FRANCE_TB_NAPOLEON_BONAPARTE_PRIMARY',			0,		0,		1,		1),
+		('COLOR_PLAYER_TB_FRANCE_TB_NAPOLEON_BONAPARTE_SECONDARY', 			1,		1,		1,		1);
 
 
 
@@ -55,7 +55,7 @@ VALUES	('COLOR_PLAYER_TEMP_CIV_CUSTOM_LEADER_CUSTOM_PRIMARY',	1,	1,	1,	1),
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO LoadingInfo	
 		(LeaderType,						BackgroundImage, 						ForegroundImage,						PlayDawnOfManAudio)
-VALUES	('LEADER_TEMP_LEADER_CUSTOM',		'LEADER_LEADER_CUSTOM_BACKGROUND',		'LEADER_LEADER_CUSTOM_NEUTRAL',			0);	
+VALUES	('TB_LEADER_NAPOLEON_BONAPARTE',		'LEADER_TB_NAPOLEON_BONAPARTE_BACKGROUND',		'LEADER_TB_NAPOLEON_BONAPARTE_NEUTRAL',			0);	
 --==========================================================================================================================
 -- CIVILIZATIONS
 --==========================================================================================================================
@@ -63,107 +63,107 @@ VALUES	('LEADER_TEMP_LEADER_CUSTOM',		'LEADER_LEADER_CUSTOM_BACKGROUND',		'LEADE
 ----------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO Types	
 		(Type,						Kind)
-VALUES	('CIVILIZATION_TEMP_CIV_CUSTOM',	'KIND_CIVILIZATION');
+VALUES	('CIVILIZATION_TB_FRANCE',	'KIND_CIVILIZATION');
 ----------------------------------------------------------------------------------------------------------------------------
 -- Civilizations
 ----------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO Civilizations	
 		(CivilizationType,					Name,										Description,									Adjective,										StartingCivilizationLevelType,	RandomCityNameDepth,	Ethnicity)
-VALUES	('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CIVILIZATION_TEMP_CIV_CUSTOM_NAME',	'LOC_CIVILIZATION_TEMP_CIV_CUSTOM_DESCRIPTION',	'LOC_CIVILIZATION_TEMP_CIV_CUSTOM_ADJECTIVE',	'CIVILIZATION_LEVEL_FULL_CIV',	30,						'ETHNICITY_AMERICAN');	
+VALUES	('CIVILIZATION_TB_FRANCE',	'LOC_CIVILIZATION_TB_FRANCE_NAME',	'LOC_CIVILIZATION_TB_FRANCE_DESCRIPTION',	'LOC_CIVILIZATION_TB_FRANCE_ADJECTIVE',	'CIVILIZATION_LEVEL_FULL_CIV',	30,						'ETHNICITY_AMERICAN');	
 ----------------------------------------------------------------------------------------------------------------------------			
 -- CityNames			
 ----------------------------------------------------------------------------------------------------------------------------		
 INSERT INTO CityNames	
 		(CivilizationType,			CityName)	
-VALUES	('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_2'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_3'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_4'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_5'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_6'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_7'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_8'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_9'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_10'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_11'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_12'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_13'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_14'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_15'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_16'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_17'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_18'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_19'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_20'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_21'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_22'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_23'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_24'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_25'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_26'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_27'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_28'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_29'),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITY_NAME_TEMP_CIV_CUSTOM_30');	
+VALUES	('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_2'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_3'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_4'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_5'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_6'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_7'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_8'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_9'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_10'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_11'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_12'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_13'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_14'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_15'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_16'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_17'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_18'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_19'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_20'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_21'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_22'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_23'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_24'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_25'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_26'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_27'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_28'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_29'),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITY_NAME_TB_FRANCE_30');	
 ----------------------------------------------------------------------------------------------------------------------------
 -- CivilizationCitizenNames
 ----------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO CivilizationCitizenNames	
 		(CivilizationType,			CitizenName,								Female,		Modern)
-VALUES	('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_1',				0,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_2',				0,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_3',				0,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_4',				0,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_5',				0,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_6',				0,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_7',				0,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_8',				0,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_9',				0,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_10',				0,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_1',			1,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_2',			1,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_3',			1,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_4',			1,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_5',			1,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_6',			1,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_7',			1,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_8',			1,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_9',			1,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_10',			1,			0),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_1',		0,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_2',		0,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_3',		0,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_4',		0,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_5',		0,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_6',		0,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_7',		0,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_8',		0,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_9',		0,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_10',		0,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_1',		1,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_2',		1,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_3',		1,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_4',		1,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_5',		1,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_6',		1,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_7',		1,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_8',		1,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_9',		1,			1),
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_10',	1,			1);	
+VALUES	('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MALE_1',				0,			0),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MALE_2',				0,			0),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MALE_3',				0,			0),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MALE_4',				0,			0),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MALE_5',				0,			0),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MALE_6',				0,			0),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MALE_7',				0,			0),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MALE_8',				0,			0),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MALE_9',				0,			0),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MALE_10',				0,			0),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_FEMALE_1',			1,			0),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_FEMALE_2',			1,			0),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_FEMALE_3',			1,			0),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_FEMALE_4',			1,			0),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_FEMALE_5',			1,			0),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_FEMALE_6',			1,			0),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_FEMALE_7',			1,			0),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_FEMALE_8',			1,			0),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_FEMALE_9',			1,			0),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_FEMALE_10',			1,			0),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MODERN_MALE_1',		0,			1),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MODERN_MALE_2',		0,			1),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MODERN_MALE_3',		0,			1),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MODERN_MALE_4',		0,			1),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MODERN_MALE_5',		0,			1),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MODERN_MALE_6',		0,			1),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MODERN_MALE_7',		0,			1),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MODERN_MALE_8',		0,			1),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MODERN_MALE_9',		0,			1),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MODERN_MALE_10',		0,			1),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MODERN_FEMALE_1',		1,			1),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MODERN_FEMALE_2',		1,			1),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MODERN_FEMALE_3',		1,			1),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MODERN_FEMALE_4',		1,			1),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MODERN_FEMALE_5',		1,			1),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MODERN_FEMALE_6',		1,			1),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MODERN_FEMALE_7',		1,			1),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MODERN_FEMALE_8',		1,			1),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MODERN_FEMALE_9',		1,			1),
+		('CIVILIZATION_TB_FRANCE',	'LOC_CITIZEN_TB_FRANCE_MODERN_FEMALE_10',	1,			1);	
 ----------------------------------------------------------------------------------------------------------------------------			
 -- CivilizationInfo			
 ----------------------------------------------------------------------------------------------------------------------------		
 INSERT INTO CivilizationInfo	
 		(CivilizationType,			Header,						Caption,								SortIndex)	
-VALUES	('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CIVINFO_LOCATION',		'LOC_CIVINFO_TEMP_CIV_CUSTOM_LOCATION',		10),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CIVINFO_SIZE',			'LOC_CIVINFO_TEMP_CIV_CUSTOM_SIZE',			20),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CIVINFO_POPULATION',	'LOC_CIVINFO_TEMP_CIV_CUSTOM_POPULATION',		30),	
-		('CIVILIZATION_TEMP_CIV_CUSTOM',	'LOC_CIVINFO_CAPITAL', 		'LOC_CIVINFO_TEMP_CIV_CUSTOM_CAPITAL',			40);
+VALUES	('CIVILIZATION_TB_FRANCE',	'LOC_CIVINFO_LOCATION',		'LOC_CIVINFO_TB_FRANCE_LOCATION',		10),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CIVINFO_SIZE',			'LOC_CIVINFO_TB_FRANCE_SIZE',			20),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CIVINFO_POPULATION',	'LOC_CIVINFO_TB_FRANCE_POPULATION',		30),	
+		('CIVILIZATION_TB_FRANCE',	'LOC_CIVINFO_CAPITAL', 		'LOC_CIVINFO_TB_FRANCE_CAPITAL',			40);
 ----------------------------------------------------------------------------------------------------------------------------
 -- CivilizationLeaders
 ----------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO CivilizationLeaders	
 		(CivilizationType,						LeaderType,			CapitalName)
-VALUES	('CIVILIZATION_TEMP_CIV_CUSTOM',	'LEADER_TEMP_LEADER_CUSTOM',		'LOC_CITY_NAME_TEMP_CIV_CUSTOM_1');
+VALUES	('CIVILIZATION_TB_FRANCE',	'TB_LEADER_NAPOLEON_BONAPARTE',		'LOC_CITY_NAME_TB_FRANCE_1');
 
 
 
@@ -175,7 +175,7 @@ VALUES	('CIVILIZATION_TEMP_CIV_CUSTOM',	'LEADER_TEMP_LEADER_CUSTOM',		'LOC_CITY_
 --------------------------------------------------------------------------------------------------------------------------			
 INSERT INTO DiplomacyInfo			
 		(Type,								BackgroundImage)
-VALUES	('LEADER_TEMP_LEADER_CUSTOM',		'ART_LEADER_LEADER_CUSTOM.dds');
+VALUES	('TB_LEADER_NAPOLEON_BONAPARTE',		'ART_LEADER_TB_NAPOLEON_BONAPARTE.dds');
 
 
 
@@ -202,21 +202,21 @@ VALUES	('LEADER_TEMP_LEADER_CUSTOM',		'ART_LEADER_LEADER_CUSTOM.dds');
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO Types	
 		(Type,														Kind)
-VALUES	('TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT',						'KIND_TRAIT');	
+VALUES	('TRAIT_TB_LEADER_NAPOLEON_BONAPARTE_LTRAIT',						'KIND_TRAIT');	
 --------------------------------------------------------------------------------------------------------------------------			
 -- Traits			
 --------------------------------------------------------------------------------------------------------------------------				
 INSERT INTO Traits				
 		(TraitType,													Name,													Description)
-VALUES	('TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT',						'LOC_TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT_NAME',			'LOC_TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT_DESCRIPTION');	
+VALUES	('TRAIT_TB_LEADER_NAPOLEON_BONAPARTE_LTRAIT',						'LOC_TRAIT_TB_LEADER_NAPOLEON_BONAPARTE_LTRAIT_NAME',			'LOC_TRAIT_TB_LEADER_NAPOLEON_BONAPARTE_LTRAIT_DESCRIPTION');	
 --------------------------------------------------------------------------------------------------------------------------		
 -- TraitModifiers		
 --------------------------------------------------------------------------------------------------------------------------			
 INSERT INTO TraitModifiers			
 		(TraitType,													ModifierId)
-VALUES	('TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT',						'TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1'),
-		('TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT',						'TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_2'),
-		('TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT',						'TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_3');
+VALUES	('TRAIT_TB_LEADER_NAPOLEON_BONAPARTE_LTRAIT',						'TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1'),
+		('TRAIT_TB_LEADER_NAPOLEON_BONAPARTE_LTRAIT',						'TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_2'),
+		('TRAIT_TB_LEADER_NAPOLEON_BONAPARTE_LTRAIT',						'TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_3');
 --------------------------------------------------------------------------------------------------------------------------
 -- Modifiers
 --------------------------------------------------------------------------------------------------------------------------
@@ -230,13 +230,14 @@ VALUES	('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1',						'MODIFIER_PLAYER_CORPS_AR
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO ModifierArguments
 		(ModifierId,												Name,							Value)
-VALUES	('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1',						'Corps',			'true'),
-		('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1',						'Domain',			'DOMAIN_LAND'),
-		('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1',						'CivicType',		'CIVIC_MERCENARIES'),
-		('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_2',						'Corps',			'true'),
-		('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_2',						'Domain',			'DOMAIN_LAND'),
-		('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_2',						'Amount',			'5'),
-		('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_3',						'GovernmentSlotType',			'SLOT_MILITARY');
+VALUES	('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1',					'Corps',						'true'),
+		('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1',					'Domain',						'DOMAIN_LAND'),
+		('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1',					'CivicType',					'CIVIC_MERCENARIES'),
+		('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_2',					'Corps',						'true'),
+		('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_2',					'Domain',						'DOMAIN_LAND'),
+		('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_2',					'Amount',						'5'),
+		('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_3',					'GovernmentSlotType',			'SLOT_MILITARY');
+
 
 
 
@@ -255,37 +256,37 @@ VALUES	('TEMP_LEADER_CUSTOM_LTRAIT_EXTRA_SLOT_1',						'Corps',			'true'),
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO Types	
 		(Type,													Kind)
-VALUES	('TRAIT_CIVILIZATION_TEMP_CIV_TRAIT',						'KIND_TRAIT'),
-		('TRAIT_CIVILIZATION_BUILDING_TEMP_CUSTOM',				'KIND_TRAIT'),
-		('TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_I',				'KIND_TRAIT'),
-		('TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_II',				'KIND_TRAIT');
+VALUES	('TRAIT_CIVILIZATION_TB_FRANCE_TRAIT',					'KIND_TRAIT'),
+		('TRAIT_CIVILIZATION_TB_UD_FRANCE_BANQUE',				'KIND_TRAIT'),
+		('TRAIT_CIVILIZATION_TB_UU_FRANCE_GARDE',				'KIND_TRAIT'),
+		('TRAIT_CIVILIZATION_TB_UU_FRANCE_CANON',				'KIND_TRAIT');
 --------------------------------------------------------------------------------------------------------------------------			
 -- Traits			
 --------------------------------------------------------------------------------------------------------------------------				
 INSERT INTO Traits				
 		(TraitType,													Name,													Description)
-VALUES	('TRAIT_CIVILIZATION_TEMP_CIV_TRAIT',						'LOC_TRAIT_CIVILIZATION_TEMP_CIV_TRAIT_NAME',					'LOC_TRAIT_CIVILIZATION_TEMP_CIV_TRAIT_DESCRIPTION'),
-		('TRAIT_CIVILIZATION_BUILDING_TEMP_CUSTOM',				'LOC_TRAIT_CIVILIZATION_BUILDING_TEMP_CUSTOM_NAME',			'LOC_TRAIT_CIVILIZATION_BUILDING_TEMP_CUSTOM_DESCRIPTION'),
-		('TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_I',				'LOC_UNIT_TEMP_CUSTOM_I_NAME',								'LOC_UNIT_TEMP_CUSTOM_I_DESCRIPTION'),			
-		('TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_II',				'LOC_UNIT_TEMP_CUSTOM_II_NAME',								'LOC_UNIT_TEMP_CUSTOM_II_DESCRIPTION');			
+VALUES	('TRAIT_CIVILIZATION_TB_FRANCE_TRAIT',						'LOC_TRAIT_CIVILIZATION_TB_FRANCE_TRAIT_NAME',					'LOC_TRAIT_CIVILIZATION_TB_FRANCE_TRAIT_DESCRIPTION'),
+		('TRAIT_CIVILIZATION_TB_UD_FRANCE_BANQUE',				'LOC_TRAIT_CIVILIZATION_TB_UD_FRANCE_BANQUE_NAME',			'LOC_TRAIT_CIVILIZATION_TB_UD_FRANCE_BANQUE_DESCRIPTION'),
+		('TRAIT_CIVILIZATION_TB_UU_FRANCE_GARDE',				'LOC_TB_UU_FRANCE_GARDE_NAME',								'LOC_TB_UU_FRANCE_GARDE_DESCRIPTION'),
+		('TRAIT_CIVILIZATION_TB_UU_FRANCE_CANON',				'LOC_TB_UU_FRANCE_CANON_NAME',								'LOC_TB_UU_FRANCE_CANON_DESCRIPTION');			
 --------------------------------------------------------------------------------------------------------------------------		
 -- TraitModifiers		
 --------------------------------------------------------------------------------------------------------------------------			
 INSERT INTO TraitModifiers			
 		(TraitType,											ModifierId)
-VALUES	('TRAIT_CIVILIZATION_TEMP_CIV_TRAIT',					'TRAIT_EJERCITO_PATRIOTA_EXTRA_MOVEMENT');																					
+VALUES	('TRAIT_CIVILIZATION_TB_FRANCE_TRAIT',					'TRAIT_EJERCITO_PATRIOTA_EXTRA_MOVEMENT');																					
 --------------------------------------------------------------------------------------------------------------------------
 -- Modifiers
 --------------------------------------------------------------------------------------------------------------------------
 --INSERT INTO Modifiers	
 		--(ModifierId,												ModifierType)
---VALUES	('TEMP_TRAIT_BORDER',										'MODIFIER_ALL_CITIES_CULTURE_BORDER_EXPANSION');	
+--VALUES	('TRAIT_BUILDER_DISTRICT_PERCENTAGE',										'MODIFIER_PLAYER_ADJUST_UNIT_DISTRICT_PERCENT');	
 --------------------------------------------------------------------------------------------------------------------------
 -- ModifierArguments
 --------------------------------------------------------------------------------------------------------------------------
 --INSERT INTO ModifierArguments
 		--(ModifierId,												Name,						Value)
---VALUES	('TEMP_TRAIT_BORDER',										'Amount',					'100');
+--VALUES	('TRAIT_BUILDER_DISTRICT_PERCENTAGE',										'Amount',					'20');
 
 
 
@@ -307,7 +308,7 @@ VALUES	('TRAIT_CIVILIZATION_TEMP_CIV_TRAIT',					'TRAIT_EJERCITO_PATRIOTA_EXTRA_
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO LeaderTraits	
 		(LeaderType,			TraitType)
-VALUES	('LEADER_TEMP_LEADER_CUSTOM',	'TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT');	
+VALUES	('TB_LEADER_NAPOLEON_BONAPARTE',	'TRAIT_TB_LEADER_NAPOLEON_BONAPARTE_LTRAIT');	
 
 
 
@@ -316,7 +317,15 @@ VALUES	('LEADER_TEMP_LEADER_CUSTOM',	'TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT');
 ----------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO CivilizationTraits	
 		(TraitType,															CivilizationType)
-VALUES	('TRAIT_CIVILIZATION_TEMP_CIV_TRAIT',									'CIVILIZATION_TEMP_CIV_CUSTOM'),
-		('TRAIT_CIVILIZATION_BUILDING_TEMP_CUSTOM',							'CIVILIZATION_TEMP_CIV_CUSTOM'),
-		('TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_I',							'CIVILIZATION_TEMP_CIV_CUSTOM'),
-		('TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_II',							'CIVILIZATION_TEMP_CIV_CUSTOM');
+VALUES	('TRAIT_CIVILIZATION_TB_FRANCE_TRAIT',									'CIVILIZATION_TB_FRANCE'),
+		('TRAIT_CIVILIZATION_TB_UD_FRANCE_BANQUE',							'CIVILIZATION_TB_FRANCE'),
+		('TRAIT_CIVILIZATION_TB_UU_FRANCE_GARDE',							'CIVILIZATION_TB_FRANCE'),
+		('TRAIT_CIVILIZATION_TB_UU_FRANCE_CANON',							'CIVILIZATION_TB_FRANCE');
+
+
+
+
+
+
+
+

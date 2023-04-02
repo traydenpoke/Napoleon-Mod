@@ -4,41 +4,41 @@
 <!--All units and their relevant modifiers are defined here.-->
 <GameData>
 	<Types>
-		<Row Type="UNIT_TEMP_CUSTOM_I" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_TEMP_CUSTOM_II" Kind="KIND_UNIT"/>
+		<Row Type="TB_UU_FRANCE_GARDE" Kind="KIND_UNIT"/>
+		<Row Type="TB_UU_FRANCE_CANON" Kind="KIND_UNIT"/>
 	</Types>
 	
 	<UnitAiInfos>
-		<Row UnitType="UNIT_TEMP_CUSTOM_I" AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_TEMP_CUSTOM_I" AiType="UNITAI_EXPLORE"/>
-		<Row UnitType="UNIT_TEMP_CUSTOM_I" AiType="UNITTYPE_MELEE"/>
-		<Row UnitType="UNIT_TEMP_CUSTOM_I" AiType="UNITTYPE_LAND_COMBAT"/>
-		<Row UnitType="UNIT_TEMP_CUSTOM_II" AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_TEMP_CUSTOM_II" AiType="UNITTYPE_RANGED"/>
-		<Row UnitType="UNIT_TEMP_CUSTOM_II" AiType="UNITTYPE_SIEGE"/>
-		<Row UnitType="UNIT_TEMP_CUSTOM_II" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="TB_UU_FRANCE_GARDE" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="TB_UU_FRANCE_GARDE" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="TB_UU_FRANCE_GARDE" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="TB_UU_FRANCE_GARDE" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="TB_UU_FRANCE_CANON" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="TB_UU_FRANCE_CANON" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="TB_UU_FRANCE_CANON" AiType="UNITTYPE_SIEGE"/>
+		<Row UnitType="TB_UU_FRANCE_CANON" AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
 	
 	<UnitReplaces>
-		<Row CivUniqueUnitType="UNIT_TEMP_CUSTOM_I" ReplacesUnitType="UNIT_LINE_INFANTRY"/>
-		<Row CivUniqueUnitType="UNIT_TEMP_CUSTOM_II" ReplacesUnitType="UNIT_BOMBARD"/>
+		<Row CivUniqueUnitType="TB_UU_FRANCE_GARDE" ReplacesUnitType="UNIT_LINE_INFANTRY"/>
+		<Row CivUniqueUnitType="TB_UU_FRANCE_CANON" ReplacesUnitType="UNIT_BOMBARD"/>
 	</UnitReplaces>
 	
 	<TypeTags>
-		<Row Type="UNIT_TEMP_CUSTOM_I" Tag="CLASS_MELEE"/>
-		<Row Type="UNIT_TEMP_CUSTOM_I" Tag="CLASS_GARDE"/>
-		<Row Type="UNIT_TEMP_CUSTOM_II" Tag="CLASS_SIEGE"/>
-		<Row Type="UNIT_TEMP_CUSTOM_II" Tag="CLASS_FORWARD_OBSERVER"/>
+		<Row Type="TB_UU_FRANCE_GARDE" Tag="CLASS_MELEE"/>
+		<Row Type="TB_UU_FRANCE_GARDE" Tag="CLASS_GARDE"/>
+		<Row Type="TB_UU_FRANCE_CANON" Tag="CLASS_SIEGE"/>
+		<Row Type="TB_UU_FRANCE_CANON" Tag="CLASS_FORWARD_OBSERVER"/>
 	</TypeTags>
 	
 	<Units>
-		<Row UnitType="UNIT_TEMP_CUSTOM_I" Cost="360" Maintenance="5" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="70" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_CONQUEST"  Name="LOC_UNIT_TEMP_CUSTOM_I_NAME" Description="LOC_UNIT_TEMP_CUSTOM_I_DESCRIPTION" PurchaseYield="YIELD_GOLD" TraitType="TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_I" PrereqTech="TECH_MILITARY_SCIENCE"/>
-		<Row UnitType="UNIT_TEMP_CUSTOM_II" Cost="280" Maintenance="4" BaseMoves="2" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="50" Bombard="65" Range="2" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_SIEGE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_TEMP_CUSTOM_II_NAME" Description="LOC_UNIT_TEMP_CUSTOM_II_DESCRIPTION" PurchaseYield="YIELD_GOLD" TraitType="TRAIT_CIVILIZATION_UNIT_TEMP_CUSTOM_II" PrereqTech="TECH_BALLISTICS" />
+		<Row UnitType="TB_UU_FRANCE_GARDE" Cost="360" Maintenance="5" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="70" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_CONQUEST"  Name="LOC_TB_UU_FRANCE_GARDE_NAME" Description="LOC_TB_UU_FRANCE_GARDE_DESCRIPTION" PurchaseYield="YIELD_GOLD" TraitType="TRAIT_CIVILIZATION_TB_UU_FRANCE_GARDE" PrereqTech="TECH_MILITARY_SCIENCE"/>
+		<Row UnitType="TB_UU_FRANCE_CANON" Cost="280" Maintenance="4" BaseMoves="2" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="50" Bombard="65" Range="2" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_SIEGE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_TB_UU_FRANCE_CANON_NAME" Description="LOC_TB_UU_FRANCE_CANON_DESCRIPTION" PurchaseYield="YIELD_GOLD" TraitType="TRAIT_CIVILIZATION_TB_UU_FRANCE_CANON" PrereqTech="TECH_BALLISTICS" />
 	</Units>
 	
 	<UnitUpgrades>
-		<Row Unit="UNIT_TEMP_CUSTOM_I" UpgradeUnit="UNIT_INFANTRY"/>
-		<Row Unit="UNIT_TEMP_CUSTOM_II" UpgradeUnit="UNIT_ARTILLERY"/>
+		<Row Unit="TB_UU_FRANCE_GARDE" UpgradeUnit="UNIT_INFANTRY"/>
+		<Row Unit="TB_UU_FRANCE_CANON" UpgradeUnit="UNIT_ARTILLERY"/>
 	</UnitUpgrades>
 	
 	</GameData>

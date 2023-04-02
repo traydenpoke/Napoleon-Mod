@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects::GameArtSpecification>
 	<id>
-		<name text="France: Napoleon"/>
-		<id text="ae53e264-b51d-4921-ba83-8e4093821034"/>
+		<name text="Napoleon Bonaparte"/>
+		<id text="9622ca79-d69f-46e6-9fdf-9a178c8d7ef2"/>
 	</id>
 	<artConsumers>
 		<Element>
@@ -457,7 +457,7 @@
 		<Element>
 			<libraryName text="Leader"/>
 			<relativePackagePaths>
-				<Element text="Leader_LEADER_CUSTOM"/>
+				<Element text="Leader_TB_NAPOLEON_BONAPARTE"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
@@ -556,7 +556,7 @@
 			<relativePackagePaths>
 				<Element text="Icons"/>
 				<Element text="UILeaders"/>
-				<Element text="LEADER_TEMP_LEADER_CUSTOM"/>
+				<Element text="TB_LEADER_NAPOLEON_BONAPARTE"/>
 				<Element text="LeaderBackgrounds"/>
 			</relativePackagePaths>
 		</Element>

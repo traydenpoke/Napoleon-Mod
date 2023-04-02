@@ -3,301 +3,301 @@
 <GameData>
 	<LocalizedText>
 		<!--CIVILIZATION-->
-		<Row Tag="LOC_CIVILIZATION_TEMP_CIV_CUSTOM_NAME" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_TB_FRANCE_NAME" Language="en_US">
 			<Text>France</Text>
 		</Row>
-		<Row Tag="LOC_CIVILIZATION_TEMP_CIV_CUSTOM_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_TB_FRANCE_DESCRIPTION" Language="en_US">
 			<Text>French Empire</Text>
 		</Row>
-		<Row Tag="LOC_CIVILIZATION_TEMP_CIV_CUSTOM_ADJECTIVE" Language="en_US">
-			<Text>Custom Civ</Text>
+		<Row Tag="LOC_CIVILIZATION_TB_FRANCE_ADJECTIVE" Language="en_US">
+			<Text>CONQUER THE WORLD SHORT MAN NAPOLEON.</Text>
 		</Row>
-		<Row Tag="LOC_CIVILIZATION_TEMP_CIV_CUSTOM_DESCRIPTION_TEMP_CIVILIZATION" Language="en_US">
-			<Text>Custom Civ</Text>
+		<Row Tag="LOC_CIVILIZATION_TB_FRANCE_DESCRIPTION_TB_FRANCEILIZATION" Language="en_US">
+			<Text>French Empire ruled by Emperor Napoleon Bonaparte.</Text>
 		</Row>
 		<!--Pedia-->
-		<Row Tag="LOC_CIVINFO_TEMP_CIV_CUSTOM_LOCATION" Language="en_US">
-			<Text>America</Text>
+		<Row Tag="LOC_CIVINFO_TB_FRANCE_LOCATION" Language="en_US">
+			<Text>Europe</Text>
 		</Row>
-		<Row Tag="LOC_CIVINFO_TEMP_CIV_CUSTOM_POPULATION" Language="en_US">
-			<Text>2.14890702934 Billion</Text>
+		<Row Tag="LOC_CIVINFO_TB_FRANCE_POPULATION" Language="en_US">
+			<Text>67.75 Million</Text>
 		</Row>
-		<Row Tag="LOC_CIVINFO_TEMP_CIV_CUSTOM_SIZE" Language="en_US">
-			<Text>100 Billion SQM</Text>
+		<Row Tag="LOC_CIVINFO_TB_FRANCE_SIZE" Language="en_US">
+			<Text>551,695 KM</Text>	
 		</Row>
-		<Row Tag="LOC_CIVINFO_TEMP_CIV_CUSTOM_CAPITAL" Language="en_US">
-			<Text>Shrekville</Text>
+		<Row Tag="LOC_CIVINFO_TB_FRANCE_CAPITAL" Language="en_US">
+			<Text>Paris</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TEMP_CIV_CUSTOM_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>grwgrwf</Text>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TB_FRANCE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>WIP</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TEMP_CIV_CUSTOM_CHAPTER_HISTORY_PARA_2" Language="en_US">
-			<Text>ooliuyjhgtryujiolukujyht</Text>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TB_FRANCE_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>WIP</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TEMP_CIV_CUSTOM_CHAPTER_HISTORY_PARA_3" Language="en_US">
-			<Text>5765554</Text>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TB_FRANCE_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>WIP</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TEMP_CIV_CUSTOM_CHAPTER_HISTORY_PARA_4" Language="en_US">
-			<Text>8==========D</Text>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TB_FRANCE_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>WIP</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TEMP_CIV_CUSTOM_CHAPTER_HISTORY_PARA_5" Language="en_US">
-			<Text>Genitals</Text>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TB_FRANCE_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>WIP</Text>
 		</Row>
 		
 		
 		<!--Cities-->
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_1" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_1" Language="en_US">
+			<Text>Paris</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_2" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_2" Language="en_US">
+			<Text>Marseille</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_3" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_3" Language="en_US">
+			<Text>Lyon</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_4" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_4" Language="en_US">
+			<Text>Toulouse</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_5" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_5" Language="en_US">
+			<Text>Nice</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_6" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_6" Language="en_US">
+			<Text>Nantes</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_7" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_7" Language="en_US">
+			<Text>Montpellier</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_8" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_8" Language="en_US">
+			<Text>Strasbourg</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_9" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_9" Language="en_US">
+			<Text>Bordeaux</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_10" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_10" Language="en_US">
+			<Text>Lille</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_11" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_11" Language="en_US">
+			<Text>Rennes</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_12" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_12" Language="en_US">
+			<Text>Reims</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_13" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_13" Language="en_US">
+			<Text>Toulon</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_14" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_14" Language="en_US">
+			<Text>Saint-Étienne</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_15" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_15" Language="en_US">
+			<Text>Le Havre</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_16" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_16" Language="en_US">
+			<Text>Grenoble</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_17" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_17" Language="en_US">
+			<Text>Dijon</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_18" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_18" Language="en_US">
+			<Text>Angers</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_19" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_19" Language="en_US">
+			<Text>Saint-Denis</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_20" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_20" Language="en_US">
+			<Text>Villeurbanne</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_21" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_21" Language="en_US">
+			<Text>Nîmes</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_22" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_22" Language="en_US">
+			<Text>Clermont-Ferrand</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_23" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_23" Language="en_US">
+			<Text>Aix-en-Provence</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_24" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_24" Language="en_US">
+			<Text>Le Mans</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_25" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_25" Language="en_US">
+			<Text>Brest</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_26" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_26" Language="en_US">
+			<Text>Tours</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_27" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_27" Language="en_US">
+			<Text>Amiens</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_28" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_28" Language="en_US">
+			<Text>Limoges</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_29" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_29" Language="en_US">
+			<Text>Annecy</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_TEMP_CIV_CUSTOM_30" Language="en_US">
-			<Text>frfrfrifip4</Text>
+		<Row Tag="LOC_CITY_NAME_TB_FRANCE_30" Language="en_US">
+			<Text>Boulogne-Billancourt</Text>
 		</Row>
 		
 		
 		
 		<!--Citizens-->
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_1" Language="en_US">
-			<Text>Some Guy</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MALE_1" Language="en_US">
+			<Text>Gabriel</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_2" Language="en_US">
-			<Text>Some Guy</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MALE_2" Language="en_US">
+			<Text>Louis</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_3" Language="en_US">
-			<Text>Some Guy</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MALE_3" Language="en_US">
+			<Text>Raphaël</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_4" Language="en_US">
-			<Text>Some Guy</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MALE_4" Language="en_US">
+			<Text>Jules</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_5" Language="en_US">
-			<Text>Some Guy</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MALE_5" Language="en_US">
+			<Text>Adam</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_6" Language="en_US">
-			<Text>Some Guy</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MALE_6" Language="en_US">
+			<Text>Lucas</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_7" Language="en_US">
-			<Text>Some Guy</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MALE_7" Language="en_US">
+			<Text>Léo</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_8" Language="en_US">
-			<Text>Some Guy</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MALE_8" Language="en_US">
+			<Text>Hugo</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MALE_9" Language="en_US">
-			<Text>Some Guy</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MALE_9" Language="en_US">
+			<Text>Arthur</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_1" Language="en_US">
-			<Text>Some Modern Guy</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MODERN_MALE_1" Language="en_US">
+			<Text>Nathan</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_2" Language="en_US">
-			<Text>Some Modern Guy</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MODERN_MALE_2" Language="en_US">
+			<Text>Liam</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_3" Language="en_US">
-			<Text>Some Modern Guy</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MODERN_MALE_3" Language="en_US">
+			<Text>Ethan</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_4" Language="en_US">
-			<Text>Some Modern Guy</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MODERN_MALE_4" Language="en_US">
+			<Text>Maël</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_5" Language="en_US">
-			<Text>Some Modern Guy</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MODERN_MALE_5" Language="en_US">
+			<Text>Paul</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_6" Language="en_US">
-			<Text>Some Modern Guy</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MODERN_MALE_6" Language="en_US">
+			<Text>Tom</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_7" Language="en_US">
-			<Text>Some Modern Guy</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MODERN_MALE_7" Language="en_US">
+			<Text>Sacha</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_8" Language="en_US">
-			<Text>Some Modern Guy</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MODERN_MALE_8" Language="en_US">
+			<Text>Noah</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_9" Language="en_US">
-			<Text>Some Modern Guy</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MODERN_MALE_9" Language="en_US">
+			<Text>Gabin</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_MALE_10" Language="en_US">
-			<Text>Some Modern Guy</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MODERN_MALE_10" Language="en_US">
+			<Text>Nolan</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_1" Language="en_US">
-			<Text>Some Girl</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_FEMALE_1" Language="en_US">
+			<Text>Emma</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_2" Language="en_US">
-			<Text>Some Girl</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_FEMALE_2" Language="en_US">
+			<Text>Louise</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_3" Language="en_US">
-			<Text>Some Girl</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_FEMALE_3" Language="en_US">
+			<Text>Jade</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_4" Language="en_US">
-			<Text>Some Girl</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_FEMALE_4" Language="en_US">
+			<Text>Alice</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_5" Language="en_US">
-			<Text>Some Girl</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_FEMALE_5" Language="en_US">
+			<Text>Chloé</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_6" Language="en_US">
-			<Text>Some Girl</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_FEMALE_6" Language="en_US">
+			<Text>Lina</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_7" Language="en_US">
-			<Text>Some Girl</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_FEMALE_7" Language="en_US">
+			<Text>Mila</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_8" Language="en_US">
-			<Text>Some Girl</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_FEMALE_8" Language="en_US">
+			<Text>Léa</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_9" Language="en_US">
-			<Text>Some Girl</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_FEMALE_9" Language="en_US">
+			<Text>Manon</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_FEMALE_10" Language="en_US">
-			<Text>Some Girl</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_FEMALE_10" Language="en_US">
+			<Text>Rose</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_1" Language="en_US">
-			<Text>Some Modern Girl</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MODERN_FEMALE_1" Language="en_US">
+			<Text>Anna</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_2" Language="en_US">
-			<Text>Some Modern Girl</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MODERN_FEMALE_2" Language="en_US">
+			<Text>Inès</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_3" Language="en_US">
-			<Text>Some Modern Girl</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MODERN_FEMALE_3" Language="en_US">
+			<Text>Camille</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_4" Language="en_US">
-			<Text>Some Modern Girl</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MODERN_FEMALE_4" Language="en_US">
+			<Text>Lola</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_5" Language="en_US">
-			<Text>Some Modern Girl</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MODERN_FEMALE_5" Language="en_US">
+			<Text>Ambre</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_6" Language="en_US">
-			<Text>Some Modern Girl</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MODERN_FEMALE_6" Language="en_US">
+			<Text>Léna</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_7" Language="en_US">
-			<Text>Some Modern Girl</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MODERN_FEMALE_7" Language="en_US">
+			<Text>Zoé</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_8" Language="en_US">
-			<Text>Some Modern Girl</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MODERN_FEMALE_8" Language="en_US">
+			<Text>Juliette</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_9" Language="en_US">
-			<Text>Some Modern Girl</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MODERN_FEMALE_9" Language="en_US">
+			<Text>Julia</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_TEMP_CIV_CUSTOM_MODERN_FEMALE_10" Language="en_US">
-			<Text>Some Modern Girl</Text>
+		<Row Tag="LOC_CITIZEN_TB_FRANCE_MODERN_FEMALE_10" Language="en_US">
+			<Text>Lou</Text>
 		</Row>
 		
 		
 		
 		<!--LEADER-->
-		<Row Tag="LOC_LEADER_TEMP_LEADER_CUSTOM" Language="en_US">
+		<Row Tag="LOC_TB_LEADER_NAPOLEON_BONAPARTE" Language="en_US">
 			<Text>Napoleon Bonaparte</Text>
 		</Row>
 
 		
 		<!--DOM-->
-		<Row Tag="LOC_LOADING_INFO_LEADER_TEMP_LEADER_CUSTOM" Language="en_US">
+		<Row Tag="LOC_LOADING_INFO_TB_LEADER_NAPOLEON_BONAPARTE" Language="en_US">
 			<Text>Great ambition is the passion of a great character. Those endowed with it may perform very good or very bad acts. All depends on the principles which direct them.</Text>
 		</Row>
 		
 		
 		<!--Civilopedia-->
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TEMP_LEADER_CUSTOM_TITLE" Language="en_US">
-			<Text>Napoleon Bonaparte</Text>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_TB_LEADER_NAPOLEON_BONAPARTE_TITLE" Language="en_US">
+			<Text>Emperor Napoleon Bonaparte</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TEMP_LEADER_CUSTOM_SUBTITLE" Language="en_US">
-			<Text>Emperor of the French</Text>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_TB_LEADER_NAPOLEON_BONAPARTE_SUBTITLE" Language="en_US">
+			<Text>Emperor</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TEMP_LEADER_CUSTOM_QUOTE" Language="en_US">
-			<Text>If you want a thing well, do it yourself.</Text>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_TB_LEADER_NAPOLEON_BONAPARTE_QUOTE" Language="en_US">
+			<Text>If you want a thing well, do it yourself</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TEMP_LEADER_CUSTOM_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_TB_LEADER_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>WIP</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TEMP_LEADER_CUSTOM_CHAPTER_HISTORY_PARA_2" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_TB_LEADER_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_2" Language="en_US">
 			<Text>WIP</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TEMP_LEADER_CUSTOM_CHAPTER_HISTORY_PARA_3" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_TB_LEADER_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_3" Language="en_US">
 			<Text>WIP</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TEMP_LEADER_CUSTOM_CHAPTER_HISTORY_PARA_4" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_TB_LEADER_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_4" Language="en_US">
 			<Text>WIP</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TEMP_LEADER_CUSTOM_CHAPTER_HISTORY_PARA_5" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_TB_LEADER_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_5" Language="en_US">
 			<Text>WIP</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TEMP_LEADER_CUSTOM_CHAPTER_HISTORY_PARA_6" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_TB_LEADER_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_6" Language="en_US">
 			<Text>WIP</Text>
 		</Row>
 		
@@ -305,138 +305,138 @@
 		<!--Diplomacy-->
 		<!--FIRST MEET-->
 		<!--First AI line-->
-		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
-			<Text>Ah another Customer, welcome to my city!</Text>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
+			<Text>Hello there!</Text>
 		</Row>
 		<!--AI invitation to visit nearby City-->
-		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
-			<Text>Do you want to visit rfjeiw?</Text>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
+			<Text>Do you want to visit Paris?</Text>
 		</Row>
 		<!--AI accepts Human invitation-->
-		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
-			<Text>Let me come and inspect your city, I bet it's not Efficient...</Text>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
+			<Text>Let me come and inspect your civilization, I bet you aren't very strong...</Text>
 		</Row>
 		<!--AI invitation to exchange Capital Information-->
-		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
-			<Text>Let's compare Cities, I know that yours will be trash, but you can look at mine for help!</Text>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
+			<Text>Let's compare cities, I know that yours will be trash, but you can look at mine for help!</Text>
 		</Row>
 		<!--GREETINGS-->
-		<Row Tag="LOC_DIPLO_GREETING_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_GREETING_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
 			<Text>Need help with anything?</Text>
 		</Row>
 		<!--DELEGATION-->
 		<!--AI Accepts-->
-		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
 			<Text>Thank you for your money, have a nice day.</Text>
 		</Row>
 		<!--AI Rejects-->
-		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
 			<Text>We are closed.</Text>
 		</Row>
 		<!--AI Requests -->
-		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
 			<Text>We have delivered a shipment for you.</Text>
 		</Row>
 		<!--OPEN BORDERS-->
 		<!--AI accepts from human-->
-		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
-			<Text>We will accept this contract</Text>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
+			<Text>We will accept this contract.</Text>
 		</Row>
 		<!--AI rejects from human-->
-		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
-			<Text>Your contract does not intrest us. </Text>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
+			<Text>Your contract does not interest us. </Text>
 		</Row>
 		<!--AI requests from human-->
-		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
-			<Text>We propose a contract</Text>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
+			<Text>We propose a contract.</Text>
 		</Row>
 		<!--DECLARE FRIENDSHIP-->
 		<!--AI accepts from human-->
-		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
-			<Text>Closer Relations is in the best interest... At this time.</Text>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
+			<Text>Closer relations is in our best interest at this time.</Text>
 		</Row>
 		<!--AI Rejects from human -->
-		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
 			<Text>Closer relations is not in our interests.</Text>
 		</Row>
 		<!--AI Requests friendship from human-->
-		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
 			<Text>I propose closer relations. What say you?</Text>
 		</Row>
 		<!--Human accepts AI requests, AI responds-->
-		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
 			<Text>Glad that you agree.</Text>
 		</Row>
 		<!--Human rejects AI requests, AI responds-->
-		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
-			<Text>You wouldn't have made us anything anyways.</Text>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
+			<Text>You wouldn't have helped us anyways.</Text>
 		</Row>
 		<!--ALLIANCE-->
 		<!--AI Requests an alliance from human-->
-		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
-			<Text>I propose a partnership contract.</Text>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
+			<Text>I propose an alliance.</Text>
 		</Row>
 		<!--KUDOS & WARNINGS-->
 		<!--AI Kudos-->
-		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
 			<Text>Our interest are similar. Good.</Text>
 		</Row>
 		<!--AI Warnings-->
-		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
 			<Text>Your interest are conflicting with ours. Be careful.</Text>
 		</Row>
 		<!--AI warns player for border troops-->
-		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
 			<Text>You have too many armed associates on our borders. What's the meaning of this?</Text>
 		</Row>
 		<!--TRADE-->
 		<!--AI Accepts Deal-->
-		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
-			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY}</Text>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_TB_LEADER_NAPOLEON_BONAPARTE_ANY}</Text>
 		</Row>
 		<!--AI Rejects Deal-->
-		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
-			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY}</Text>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_TB_LEADER_NAPOLEON_BONAPARTE_ANY}</Text>
 		</Row>
 		<!--DENOUNCE-->
 		<!--From Human-->
-		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
 			<Text>That was a mistake. The waters ahead aren't calm.</Text>
 		</Row>
 		<!--From AI-->
-		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
 			<Text>Your interest are too far from our own and we will not stand for it! (Denounces You)</Text>
 		</Row>
 		<!--DECLARE WAR-->
 		<!--Human Declares War-->
-		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
 			<Text>Our interests conflict. Time to add you to the monopoly!</Text>
 		</Row>
 		<!--AI Declares War-->
-		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
 			<Text>Our interests conflict. Time to add you to the monopoly!</Text>
 		</Row>
 		<!--MAKE PEACE-->
 		<!--AI accepts from human-->
-		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
 			<Text>This suits our interests.</Text>
 		</Row>
 		<!--AI refuses human-->
-		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
 			<Text>We refuse your peace contract!</Text>
 		</Row>
 		<!--AI requests from human-->
-		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
 			<Text>We ask for a peace contract.</Text>
 		</Row>
 		<!--DEFEAT-->
 		<!--AI is Defeated-->
-		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
-			<Text>You cheated... It doesn't count... I bet you're playing on settler difficulty!</Text>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
+			<Text>You cheated... you must have... you damn traitor!</Text>
 		</Row>
 		<!--Human is Defeated (will see this in hotseat)-->
-		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_TEMP_LEADER_CUSTOM_ANY" Language="en_US">
-			<Text>[LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TEMP_LEADER_CUSTOM_ANY]</Text>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_TB_LEADER_NAPOLEON_BONAPARTE_ANY" Language="en_US">
+			<Text>[LOC_DIPLO_DEFEAT_FROM_AI_TB_LEADER_NAPOLEON_BONAPARTE_ANY]</Text>
 		</Row>
 
 
@@ -450,39 +450,40 @@
 		
 
 		<!--Traits-->
-		<Row Tag="LOC_TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT_NAME" Language="en_US">
+		<Row Tag="LOC_TRAIT_TB_LEADER_NAPOLEON_BONAPARTE_LTRAIT_NAME" Language="en_US">
 			<Text>La Grand Armée</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_LEADER_TEMP_LEADER_CUSTOM_LTRAIT_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_TRAIT_TB_LEADER_NAPOLEON_BONAPARTE_LTRAIT_DESCRIPTION" Language="en_US">
 			<Text>May form Corps (Mercenaries Civic) earlier. Additional Military policy slot. Corps gain an additional +5 [ICON_strength] Combat Strength.</Text>
 		</Row>
 
 
-		<Row Tag="LOC_TRAIT_CIVILIZATION_TEMP_CIV_TRAIT_NAME" Language="en_US">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_TB_FRANCE_TRAIT_NAME" Language="en_US">
 			<Text>Napoleonic Tactics</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_TEMP_CIV_TRAIT_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_TB_FRANCE_TRAIT_DESCRIPTION" Language="en_US">
 			<Text>+1 Movement to all units.</Text>
 		</Row>
 
-		<Row Tag="LOC_BUILDING_TEMP_CUSTOM_NAME" Language="en_US">
-			<Text>BUILDING</Text>
+		<Row Tag="LOC_TB_UD_FRANCE_BANQUE_NAME" Language="en_US">
+			<Text>Banque de France</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_TEMP_CUSTOM_DESCRIPTION" Language="en_US">
-			<Text>This building is unique to BOB SAGET and yields +10 [ICON_gold] +5 [ICON_science] +5 [ICON_culture] +2 [ICON_production].</Text>
+		<Row Tag="LOC_TB_UD_FRANCE_BANQUE_DESCRIPTION" Language="en_US">
+			<Text>A district unique to France specializing in finance. Replaces the Commercial Hub district and is cheaper to build.[NEWLINE][NEWLINE]+2 [ICON_gold] Gold bonus for every adjacent Harbor. +1 [ICON_gold] Gold bonus for every adjacent Government Plaza. +2 [ICON_gold] Gold bonus from a tile containing a River edge. +1 [ICON_gold] Gold bonus for every two adjacent district tiles. +4 [ICON_gold] Gold and +2 [ICON_culture] Culture per specialist.</Text>
 		</Row>
 		
-		<Row Tag="LOC_UNIT_TEMP_CUSTOM_I_NAME" Language="en_US">
+		<Row Tag="LOC_TB_UU_FRANCE_GARDE_NAME" Language="en_US">
 			<Text>Garde Impériale</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_TEMP_CUSTOM_I_DESCRIPTION" Language="en_US">
-			<Text>This unit replaces Line Infantry and has stronger melee strength.</Text>
+		<Row Tag="LOC_TB_UU_FRANCE_GARDE_DESCRIPTION" Language="en_US">
+			<Text>French unique melee unit that replaces Line Infantry and has higher [ICON_strength] Melee Strength.</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_TEMP_CUSTOM_II_NAME" Language="en_US">
+
+		<Row Tag="LOC_TB_UU_FRANCE_CANON_NAME" Language="en_US">
 			<Text>Canon de 12 Gribeauval</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_TEMP_CUSTOM_II_DESCRIPTION" Language="en_US">
-			<Text>This unit replaces Bombard. Unlocked later, at Ballistics, but much higher [ICON_bombard] Bombard Strength and higher [ICON_strength] Combat Strength.</Text>
+		<Row Tag="LOC_TB_UU_FRANCE_CANON_DESCRIPTION" Language="en_US">
+			<Text>French unique siege unit that replaces the Bombard. Unlocked later, at Ballistics, but has much higher [ICON_bombard] Bombard Strength and higher [ICON_strength] Combat Strength.</Text>
 		</Row>
 
 		
